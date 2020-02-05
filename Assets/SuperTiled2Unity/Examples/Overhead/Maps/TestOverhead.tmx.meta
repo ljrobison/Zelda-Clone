@@ -1,0 +1,85 @@
+fileFormatVersion: 2
+guid: 07380b76b61dbdc4cac988495a0a065d
+ScriptedImporter:
+  fileIDToRecycleName:
+    100000: _MapPrfab/TestOverhead
+    100002: _MapPrfab/TestOverhead/Grid
+    100004: _MapPrfab/TestOverhead/Grid/Deco
+    100006: _MapPrfab/TestOverhead/Grid/Deco/Collision_Default
+    100008: _MapPrfab/TestOverhead/Grid/Ground
+    100010: _MapPrfab/TestOverhead/Grid/Ground/Collision_Default
+    100012: _MapPrfab/TestOverhead/Grid/Ground/Collision_Water
+    100014: _MapPrfab/TestOverhead/Grid/Objects
+    100016: _MapPrfab/TestOverhead/Grid/Objects/Spawn
+    100018: _MapPrfab/TestOverhead/Grid/OnTopOfGround
+    100020: _MapPrfab/TestOverhead/Grid/OnTopOfGround/Collision_Default
+    100022: _MapPrfab/TestOverhead/Grid/Trim
+    100024: _MapPrfab/TestOverhead/Grid/Trim/Collision_Default
+    400000: _MapPrfab/TestOverhead/Transform
+    400002: _MapPrfab/TestOverhead/Grid/Transform
+    400004: _MapPrfab/TestOverhead/Grid/Deco/Transform
+    400006: _MapPrfab/TestOverhead/Grid/Deco/Collision_Default/Transform
+    400008: _MapPrfab/TestOverhead/Grid/Ground/Transform
+    400010: _MapPrfab/TestOverhead/Grid/Ground/Collision_Default/Transform
+    400012: _MapPrfab/TestOverhead/Grid/Ground/Collision_Water/Transform
+    400014: _MapPrfab/TestOverhead/Grid/Objects/Transform
+    400016: _MapPrfab/TestOverhead/Grid/Objects/Spawn/Transform
+    400018: _MapPrfab/TestOverhead/Grid/OnTopOfGround/Transform
+    400020: _MapPrfab/TestOverhead/Grid/OnTopOfGround/Collision_Default/Transform
+    400022: _MapPrfab/TestOverhead/Grid/Trim/Transform
+    400024: _MapPrfab/TestOverhead/Grid/Trim/Collision_Default/Transform
+    6000000: _MapPrfab/TestOverhead/Grid/Deco/Collision_Default/PolygonCollider2D
+    6000002: _MapPrfab/TestOverhead/Grid/Ground/Collision_Default/PolygonCollider2D
+    6000004: _MapPrfab/TestOverhead/Grid/Ground/Collision_Water/PolygonCollider2D
+    6000006: _MapPrfab/TestOverhead/Grid/OnTopOfGround/Collision_Default/PolygonCollider2D
+    6000008: _MapPrfab/TestOverhead/Grid/Trim/Collision_Default/PolygonCollider2D
+    11400000: _MapPrfab/TestOverhead/MonoBehaviour-SuperTiled2Unity.SuperMap
+    11400002: _MapPrfab/TestOverhead/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400004: _MapPrfab/TestOverhead/Grid/Deco/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400006: _MapPrfab/TestOverhead/Grid/Deco/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400008: _MapPrfab/TestOverhead/Grid/Deco/Collision_Default/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400010: _MapPrfab/TestOverhead/Grid/Ground/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400012: _MapPrfab/TestOverhead/Grid/Ground/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400014: _MapPrfab/TestOverhead/Grid/Ground/Collision_Default/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400016: _MapPrfab/TestOverhead/Grid/Ground/Collision_Water/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400018: _MapPrfab/TestOverhead/Grid/Objects/MonoBehaviour-SuperTiled2Unity.SuperObjectLayer
+    11400020: _MapPrfab/TestOverhead/Grid/Objects/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400022: _MapPrfab/TestOverhead/Grid/Objects/Spawn/MonoBehaviour-SuperTiled2Unity.SuperObject
+    11400024: _MapPrfab/TestOverhead/Grid/Objects/Spawn/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400026: _MapPrfab/TestOverhead/Grid/OnTopOfGround/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400028: _MapPrfab/TestOverhead/Grid/OnTopOfGround/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400030: _MapPrfab/TestOverhead/Grid/OnTopOfGround/Collision_Default/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400032: _MapPrfab/TestOverhead/Grid/Trim/MonoBehaviour-SuperTiled2Unity.SuperTileLayer
+    11400034: _MapPrfab/TestOverhead/Grid/Trim/MonoBehaviour-SuperTiled2Unity.SuperCustomProperties
+    11400036: _MapPrfab/TestOverhead/Grid/Trim/Collision_Default/MonoBehaviour-SuperTiled2Unity.SuperColliderComponent
+    11400038: _superAsset
+    100100000: _MapPrfab
+    2569400265252428796: _MapPrfab/TestOverhead/Grid/Grid
+    3664157343022684176: _MapPrfab/TestOverhead/Grid/Deco/TilemapRenderer
+    3664157343022684178: _MapPrfab/TestOverhead/Grid/Ground/TilemapRenderer
+    3664157343022684180: _MapPrfab/TestOverhead/Grid/OnTopOfGround/TilemapRenderer
+    3664157343022684182: _MapPrfab/TestOverhead/Grid/Trim/TilemapRenderer
+    8195094279510102542: _MapPrfab/TestOverhead/Grid/Deco/Tilemap
+    8195094279510102544: _MapPrfab/TestOverhead/Grid/Ground/Tilemap
+    8195094279510102546: _MapPrfab/TestOverhead/Grid/OnTopOfGround/Tilemap
+    8195094279510102548: _MapPrfab/TestOverhead/Grid/Trim/Tilemap
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 1fa25d03934ea624a82bf2fcee6f0873, type: 3}
+  missingFiles: []
+  errors: []
+  warnings: []
+  missingSortingLayers: []
+  missingLayers: []
+  missingTags: []
+  importerVersion: 21
+  pixelsPerUnit: 1
+  edgesPerEllipse: 32
+  numberOfObjectsImported: 2
+  tilesAsObjects: 0
+  sortingMode: 1
+  isIsometric: 0
+  customImporterClassName: 
+  internalTilesets: []
