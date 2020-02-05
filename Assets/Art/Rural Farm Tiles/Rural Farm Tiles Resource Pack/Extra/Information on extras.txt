@@ -1,0 +1,7 @@
+This folder "Extra" contains material that is not a tileset nor a characterset, but can be used as pictures, or in combination with other graphical work.
+
+Here is a brief explanation of each folder:
+
+The folder "Windows" contains graphics that are ready to be used as the background for a text command (set the default text window to transparent when using these) by using the 'show picture' command. Please pick coordinates 0,0, as they're already in position. The sample project that came with the resource pack uses these windows as pictures, and are already built-in as a common event function. Read the information guide or the comments inside of the project for more information.
+
+The folder "Parallax Mapping Extras" contains graphics meant for a technique called 'parallax mapping'. These graphics are not fit to use as-is and cannot be imported into the Maker. You will have to use these graphics with an external image editing software to manipulate these graphics into 'parallax maps'.
