@@ -25,6 +25,7 @@ public class RoomMove : MonoBehaviour
         
     }
 
+    //Changes the minimum and maximum bounds of the camera when the player transitions "rooms".
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))
@@ -34,6 +35,4 @@ public class RoomMove : MonoBehaviour
             other.transform.position += playerChange;
         }        
     }
-
-    //TODO: Get the camera to snap to the new boundaries when a player transitions rooms.
 }
