@@ -7,7 +7,7 @@ public class RoomMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -15,4 +15,6 @@ public class RoomMove : MonoBehaviour
     {
         
     }
+
+    //TODO: Get the camera to snap to the new boundaries when a player transitions rooms.
 }
