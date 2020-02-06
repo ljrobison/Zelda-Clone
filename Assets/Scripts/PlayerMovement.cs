@@ -24,8 +24,8 @@ public class PlayerMovement : MonoBehaviour
         change.x = Input.GetAxisRaw("Horizontal");
         change.y = Input.GetAxisRaw("Vertical");
     }
-    
-    //Updates every physic frame.
+
+    // Updates only during physics frames.
     void FixedUpdate() 
     {
         UpdateAnimationAndMove();
