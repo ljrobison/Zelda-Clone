@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//TODO: Make Interactable class and have Sign inherit from it.
 public class Sign : MonoBehaviour
 {
     public GameObject dialogBox;
