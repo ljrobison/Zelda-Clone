@@ -33,6 +33,22 @@ public class RoomMove : MonoBehaviour
             cam.minPostion += cameraChange;
             cam.maxPosition += cameraChange;
             other.transform.position += playerChange;
+            if(needText)
+            {
+
+            }
+            else
+            {
+
+            }
         }        
+    }
+    //Call this routine if you need a place name text.
+    private IEnumerator placeNameCo()
+    {
+        text.SetActive(true);
+        placeText.text = placeName;
+        yield return new WaitForSeconds(4f);
+        text.SetActive(false);
     }
 }
