@@ -35,7 +35,7 @@ public class RoomMove : MonoBehaviour
             other.transform.position += playerChange;
             if(needText)
             {
-
+                StartCoroutine(placeNameCo());
             }
             else
             {

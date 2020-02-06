@@ -5204,8 +5204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 946886994}
   smoothing: 0.05
-  maxPosition: {x: 3.6, y: 6}
-  minPostion: {x: -2.67, y: -5}
+  maxPosition: {x: 5, y: 7}
+  minPostion: {x: -4, y: -6}
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -5232,7 +5232,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -5391,7 +5391,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &761944446
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5968,6 +5968,26 @@ PrefabInstance:
       propertyPath: playerChange.y
       value: -1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 880307409846135485, guid: bc2c2820619011d43a120692c213821c,
+        type: 3}
+      propertyPath: needText
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 880307409846135485, guid: bc2c2820619011d43a120692c213821c,
+        type: 3}
+      propertyPath: placeName
+      value: Homestead
+      objectReference: {fileID: 0}
+    - target: {fileID: 880307409846135485, guid: bc2c2820619011d43a120692c213821c,
+        type: 3}
+      propertyPath: placeText
+      value: 
+      objectReference: {fileID: 761944447}
+    - target: {fileID: 880307409846135485, guid: bc2c2820619011d43a120692c213821c,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 761944445}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc2c2820619011d43a120692c213821c, type: 3}
 --- !u!1 &1354485384
@@ -8622,7 +8642,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1623688277
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -36253,7 +36273,7 @@ PrefabInstance:
     - target: {fileID: 880307409846135484, guid: bc2c2820619011d43a120692c213821c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.34
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 880307409846135484, guid: bc2c2820619011d43a120692c213821c,
         type: 3}
@@ -36309,6 +36329,26 @@ PrefabInstance:
         type: 3}
       propertyPath: playerChange.y
       value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 880307409846135485, guid: bc2c2820619011d43a120692c213821c,
+        type: 3}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 761944445}
+    - target: {fileID: 880307409846135485, guid: bc2c2820619011d43a120692c213821c,
+        type: 3}
+      propertyPath: placeText
+      value: 
+      objectReference: {fileID: 761944447}
+    - target: {fileID: 880307409846135485, guid: bc2c2820619011d43a120692c213821c,
+        type: 3}
+      propertyPath: placeName
+      value: Lake
+      objectReference: {fileID: 0}
+    - target: {fileID: 880307409846135485, guid: bc2c2820619011d43a120692c213821c,
+        type: 3}
+      propertyPath: needText
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc2c2820619011d43a120692c213821c, type: 3}
