@@ -43,7 +43,8 @@ public class RoomMove : MonoBehaviour
             }
         }        
     }
-    //Call this routine if you need a place name text.
+    //Call this routine if you need a place name text to appear on the screen. (Default is 4s)
+    //TODO: Add argument for length of time to show the text.
     private IEnumerator placeNameCo()
     {
         text.SetActive(true);
