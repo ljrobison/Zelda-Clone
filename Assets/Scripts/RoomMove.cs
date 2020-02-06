@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+//TODO: Add fading text animation in Unity Editor.
 public class RoomMove : MonoBehaviour
 {
     public Vector2 cameraChange;
@@ -39,7 +40,7 @@ public class RoomMove : MonoBehaviour
             }
             else
             {
-
+                //What to do if place doesn't need a name. Likely not needed.
             }
         }        
     }
